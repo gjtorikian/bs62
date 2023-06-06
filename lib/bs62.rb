@@ -12,9 +12,15 @@ end
 class Bs62
   class << self
     def encode(bytes)
-      raise TypeError, "bytes must be an array of bytes String; got a #{bytes.class}!" unless bytes.is_a?(Array)
+      raise TypeError, "argument must be an array of bytes; got a #{bytes.class}!" unless bytes.is_a?(Array)
 
       Bs62.perform_encode(bytes)
+    end
+
+    def decode(str)
+      raise TypeError, "argument must be a String; got a #{str.class}!" unless str.is_a?(String)
+
+      Bs62.perform_decode(str)
     end
   end
 end
