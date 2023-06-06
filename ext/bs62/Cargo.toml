@@ -1,0 +1,12 @@
+[package]
+name = "bs62"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+base-62 = "0.1"
+magnus = "0.5"
+
+[lib]
+name = "bs62"
+crate-type = ["cdylib"]

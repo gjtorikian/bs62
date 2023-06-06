@@ -1,12 +1,21 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "https://rubygems.org/"
 
-# Specify your gem's dependencies in bs62.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
+gem "github_changelog_generator", "~> 1.16"
 
-gem "minitest", "~> 5.0"
+group :debug do
+  gem "amazing_print"
+  gem "debug"
+end
 
-gem "rubocop", "~> 1.21"
+group :test do
+  gem "minitest", "~> 5.6"
+  gem "minitest-focus", "~> 1.1"
+end
+
+group :lint do
+  gem "rubocop-standard"
+end
