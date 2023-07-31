@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 base-62 = "0.1"
-magnus = "0.5"
+magnus = "0.6"
 
 [lib]
 name = "bs62"
