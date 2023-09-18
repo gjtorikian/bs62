@@ -5,8 +5,11 @@ require_relative "bs62/extension"
 require "bs62/version"
 
 if ENV.fetch("DEBUG", false)
-  require "amazing_print"
   require "debug"
+  begin
+    require "amazing_print"
+  rescue LoadError # rubocop:disable Lint/SuppressedException
+  end
 end
 
 class Bs62
