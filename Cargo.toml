@@ -4,3 +4,4 @@
 
 [workspace]
 members = ["ext/bs62"]
+resolver = "2"
