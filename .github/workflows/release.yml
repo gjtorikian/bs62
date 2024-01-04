@@ -8,6 +8,10 @@ on:
     paths:
       - lib/bs62/version.rb
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   ruby:
     uses: yettoapp/actions/.github/workflows/ruby_gem_release.yml@main
