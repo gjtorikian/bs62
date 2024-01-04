@@ -23,7 +23,7 @@ impl Bs62 {
 
 #[magnus::init]
 fn init() -> Result<(), Error> {
-    let c_bs62 = define_class("Bs62", Default::default())?;
+    let c_bs62 = define_class("Bs62", magnus::class::object())?;
 
     c_bs62.define_singleton_method("perform_encode", function!(Bs62::perform_encode, 1))?;
     c_bs62.define_singleton_method("perform_decode", function!(Bs62::perform_decode, 1))?;
