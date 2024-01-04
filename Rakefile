@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 if ENV.fetch("DEBUG", false)
-  require "amazing_print"
+  require "awesome_print"
   require "debug"
 end
 
@@ -10,4 +10,7 @@ require "bundler"
 GEMSPEC = Bundler.load_gemspec("bs62.gemspec")
 
 # Packaging
-require "bundler/gem_tasks"
+require "rubygems/package_task"
+gem_path = Gem::PackageTask.new(GEMSPEC).define
+desc "Package the Ruby gem"
+task "package" => [gem_path]
