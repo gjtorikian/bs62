@@ -1,3 +1,10 @@
+# [v0.1.5] - 03-08-2025
+## What's Changed
+* Bump actions/cache from 3 to 4 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/5
+* Update magnus requirement from 0.6 to 0.7 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/6
+
+
+**Full Changelog**: https://github.com/gjtorikian/bs62/compare/v0.1.2...v0.1.5
 ## [v0.1.2] - 04-01-2024
 ## What's Changed
 * Allow decoding by @gjtorikian in https://github.com/gjtorikian/bs62/pull/1
