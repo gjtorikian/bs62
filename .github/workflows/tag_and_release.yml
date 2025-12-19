@@ -19,7 +19,7 @@ permissions:
 
 jobs:
   ruby:
-    uses: gjtorikian/actions/.github/workflows/releases/ruby_gem.yml@main
+    uses: gjtorikian/actions/.github/workflows/ruby_gem.yml@main
     secrets:
       gh_token: ${{ secrets.GITHUB_TOKEN }}
     with:
