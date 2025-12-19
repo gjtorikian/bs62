@@ -1,3 +1,13 @@
+# [v0.1.7] - 19-12-2025
+## What's Changed
+* Bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/8
+* Update magnus requirement from 0.7 to 0.8 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/9
+* Bump actions/checkout from 5 to 6 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/10
+* Bump actions/cache from 4 to 5 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/11
+* Test new OIDC workflow by @gjtorikian in https://github.com/gjtorikian/bs62/pull/12
+
+
+**Full Changelog**: https://github.com/gjtorikian/bs62/compare/v0.1.5...v0.1.7
 # [v0.1.5] - 03-08-2025
 ## What's Changed
 * Bump actions/cache from 3 to 4 by @dependabot[bot] in https://github.com/gjtorikian/bs62/pull/5
