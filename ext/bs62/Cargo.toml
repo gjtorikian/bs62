@@ -7,7 +7,7 @@ publish = false
 
 [dependencies]
 base-62 = "0.1"
-magnus = "0.8"
+magnus = "0.9"
 
 [lib]
 name = "bs62"
